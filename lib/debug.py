@@ -13,7 +13,7 @@ if __name__ == '__main__':
     
     engine = create_engine('sqlite:///seed_db.db')
     Session = sessionmaker(bind=engine)
-    session = Session()
+    session = Session(),
 
 
     import ipdb; ipdb.set_trace()
